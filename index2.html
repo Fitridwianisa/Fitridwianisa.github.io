@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style2.css" rel="stylesheet"> <!-- Mengarahkan ke file CSS terpisah -->
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-navbar-md">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container-fluid banner d-flex align-items-center" id="Home">
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <img src="Asset/Desain tanpa judul 1.png" alt="Foto saya" class="img-fluid">
+      </div>
+      <div class="col-md-6 mt-5">
+        <div class="container">
+          <div>
+            <h4 class="display-6 text-white fw-bold"> Haloo, I'am</h4>
+            <h1 class="display-1 text-white fw-bold">Fitri <br> Dwi AnISA</h1>
+            <h4 class="display-6 text-white "> a Junior Front end Developer |</span></h4>
+            <div class="d-flex align-items-center"> <!-- Menggunakan flexbox untuk menyusun elemen secara horizontal -->
+              <a href="#Contact" class="btn btn-warning text-black mr-2">Contact me</a> <!-- Menambahkan kelas mr-2 untuk memberikan margin kanan -->
+              <div>
+                <a href="https://www.instagram.com/_nissay01/" target="_blank">
+                  <img src="Asset/Instagram - Negative.png" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/fitri-dwi-anisa-00b609250/?locale=en_US&trk=people-guest_people_search-card" target="_blank">
+                  <img src="Asset/Vector (1).png" alt="LinkedIn">
+                </a>
+              </div>
+            </div>                     
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid banner pt-5 pd-5" id="About">
+        <div class="container text-center">
+          <h2 class="display-6 text-white fw-bold" id="About">About Me</h2>
+          <p class="text-white">Saya seorang junior Front-end Developer yang berfokus pada pengembangan antarmuka pengguna yang menarik dan responsif. Saya memiliki keahlian dalam HTML, CSS, serta pengalaman dalam menggunakan framework seperti Bootstrap </p>
+        </div>
+        <div class="progress-container text-center">
+          <div class="progress" role="progressbar" aria-label="Bootstrap" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning text-dark" style="width: 89%">Bootstrap 90%</div>
+          </div><br>
+          <div class="progress" role="progressbar" aria-label="CSS" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning text-dark" style="width: 90%">CSS 90%</div>
+          </div><br>
+          <div class="progress" role="progressbar" aria-label="HTML5" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning text-dark" style="width: 95%">HTML5 95%</div>
+          </div>
+        </div>
+  </div>      
+
+  <div class="container-fluid banner" id="Portfolio">
+    <div class="container text-center">
+      <h2 class="display-6 text-white fw-bold">Sertifikat</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Asset/Cuplikan layar 2024-04-14 162746.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SHORT CLASS</h5>
+              <p class="card-text">Program SOFTWARE ENGINEERING SERIES yang diadakan oleh MYskill. Bimbingan melalui zoom meeting, saya mendapatkan pengalaman yang baru dan dapat menyelesaikan tugas akhir</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Asset/Cuplikan layar 2024-04-14 162827.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dasar Pemrograman Web </h5>
+              <p class="card-text">Kelas ini membahas tuntas dasar HTML dan CSS sebagai tiga fondasi pembuatan website. Fondasi tersebut diperlukan untuk saya yang ingin
+                mengembangkan kemampuan pengembangan website ke tahap yang lebih lanjut. Saya telah menyelesaikan tugas akhir membuat web yang diberikan dengan cukup memuaskan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="container-fluid banner" id="Contact">
+    <div class="container text-center text-white fw-bold">
+      <h2 class="display-6 fw-bold">Contact me</h2><br>
+      <p>Please fill out the form on this section to contact with me</p> <br>
+    </div>
+    <img src="Asset/Frame 6.png" alt="alamat" class="img-fluid">
+    <div class="row g-2">
+      <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d988.1148580225791!2d111.91202296947235!3d-7.846888899510917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwNTAnNDguOCJTIDExMcKwNTQnNDUuNiJF!5e0!3m2!1sid!2sid!4v1712544703056!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-2">
+          <div class="col-md">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInputGrid">
+              <label for="floatingInputGrid">Name*</label> <br>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="isa@gmail.com">
+              <label for="floatingInputGrid">Email address</label> <br>
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-md">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInputGrid">
+              <label for="floatingInputGrid">Phone*</label> <br>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInputGrid">
+              <label for="floatingInputGrid">Subject*</label> <br>
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"> Your message here*</textarea>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-warning mb-3">Confirm identity</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+  <div class="container-fluid banner">
+    <div class="container text-center text-white fw-bold">
+      <h3>Just say. HALLO ISAA!</h3>
+      <img src="Asset/Social Media Icons.png" alt="sosmed" class="img-fluid my-3">
+      <h3>Developed with love by © 2023 Fitri Dwi Anisa</h3>
+    </div>
+  </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
